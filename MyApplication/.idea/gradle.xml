@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Demo_MultiStateView" />
+            <option value="$PROJECT_DIR$/Demo_ZXing" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

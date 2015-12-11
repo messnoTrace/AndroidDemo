@@ -1,1 +1,1 @@
-include ':app', ':Demo_MultiStateView'
+include ':app', ':Demo_MultiStateView', ':Demo_ZXing'
