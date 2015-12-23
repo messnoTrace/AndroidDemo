@@ -1,1 +1,1 @@
-include ':app', ':Demo_MultiStateView', ':Demo_ZXing'
+include ':app', ':Demo_MultiStateView', ':Demo_ZXing', ':Demo_accessbility', ':Demo_OPENGL2.0', ':Demo_wifip2pconnnection', ':Demo_Frame_BottomTab'

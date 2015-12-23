@@ -9,8 +9,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Demo_Frame_BottomTab" />
             <option value="$PROJECT_DIR$/Demo_MultiStateView" />
+            <option value="$PROJECT_DIR$/Demo_OPENGL2.0" />
             <option value="$PROJECT_DIR$/Demo_ZXing" />
+            <option value="$PROJECT_DIR$/Demo_accessbility" />
+            <option value="$PROJECT_DIR$/Demo_wifip2pconnnection" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
