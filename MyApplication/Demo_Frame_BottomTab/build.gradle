@@ -1,6 +1,15 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
 
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://clojars.org/repo/" }
+        maven { url 'https://dl.bintray.com/kennyc1012/maven' }
+    }
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
@@ -25,7 +34,34 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
     compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.android.support:support-annotations:23.1.1'
+
+
     compile 'com.ogaclejapan.smarttablayout:library:1.6.0@aar'
     compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.0@aar'
+
     compile 'com.jakewharton:butterknife:7.0.1'
+
+    compile 'info.android15.nucleus:nucleus:2.0.1'
+    compile 'info.android15.nucleus:nucleus-support-v7:2.0.1'
+    compile 'info.android15.nucleus:nucleus-support-v4:2.0.1'
+
+    compile 'frankiesardo:icepick:3.1.0'
+    provided 'frankiesardo:icepick-processor:3.1.0'
+
+    compile 'com.kennyc:multistateview:1.1'
+
+    compile 'io.nlopez.smartadapters:library:1.2.2'
+
+    compile 'com.levelmoney.velodrome:velodrome:1.0'
+
+    // retrofit
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.0.0'
+    compile 'com.squareup.okhttp:okhttp:2.0.0'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'eu.unicate.android:retroauth:1.0.3'
+
+    // rxjava android
+    compile 'io.reactivex:rxandroid:1.0.1'
+    compile 'io.reactivex:rxjava:1.0.14'
 }
