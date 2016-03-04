@@ -1,61 +1,52 @@
 package com.notrace;
 
 import android.app.Activity;
-import android.graphics.RectF;
 import android.os.Bundle;
+import android.view.View;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements View.OnClickListener{
 
-    private PathView1 pathView;
+    private PathView pathView;
 
-    private   RotateView rotateView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        rotateView= (RotateView) findViewById(R.id.rotateview);
+        pathView = (PathView) findViewById(R.id.pathView);
 
 
-        RectF rectF=new RectF(500,500,520,520);
-        rotateView.setRectF(rectF);
+        findViewById(R.id.btn_play).setOnClickListener(this);
+        findViewById(R.id.btn_pause).setOnClickListener(this);
+        findViewById(R.id.btn_continue).setOnClickListener(this);
 
 
-//        pathView = (PathView1) findViewById(R.id.pathView);
-//        Path path=new Path();
-//        path.addCircle(300,300,50, Path.Direction.CW);
-//        pathView.setPath(path);
-//
-//
-//        pathView.getPathAnimator()
-//                .delay(1000)
-//                .duration(50000)
-//                .animationListener(mListener)
-//                .interpolator(new AccelerateDecelerateInterpolator())
-//                .start();
+
+        pathView.setPath(300, 300, 100);
+        pathView.startAnimation(5000);
+
+
     }
 
-//    public Animator.AnimatorListener mListener=new Animator.AnimatorListener() {
-//        @Override
-//        public void onAnimationStart(Animator animation) {
-//
-//        }
-//
-//        @Override
-//        public void onAnimationEnd(Animator animation) {
-//
-//        }
-//
-//        @Override
-//        public void onAnimationCancel(Animator animation) {
-//
-//        }
-//
-//        @Override
-//        public void onAnimationRepeat(Animator animation) {
-//
-//        }
-//    };
+    @Override
+    public void onClick(View v) {
 
+        switch (v.getId())
+        {
+            case R.id.btn_play:
+//                pathView.play();
+                pathView.start();
 
+                break;
+
+            case R.id.btn_pause:
+//                pathView.pause();
+                pathView.stop();
+                break;
+            case R.id.btn_continue:
+//                pathView.resuem();
+                pathView.start();
+                break;
+        }
+    }
 }

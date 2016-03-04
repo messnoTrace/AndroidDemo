@@ -1,26 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black"
+    android:background="@android:color/white"
+    android:orientation="vertical"
     android:fitsSystemWindows="true"
 >
 
-    <com.notrace.PathView1
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放"
+
+            />
+
+        <Button
+            android:id="@+id/btn_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂停"
+
+            />
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="继续"
+
+            />
+
+    </LinearLayout>
+    <com.notrace.PathView
         android:id="@+id/pathView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:strokeColor="@android:color/black"
-        android:background="@mipmap/ic_launcher"
-        android:visibility="gone"
+        app:strokeColor="@android:color/holo_blue_bright"
         />
 
-    <com.notrace.RotateView
-        android:id="@+id/rotateview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        />
-</RelativeLayout>
+</LinearLayout>
