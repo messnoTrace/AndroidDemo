@@ -9,14 +9,22 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Demo_Frame_BottomTab" />
+            <option value="$PROJECT_DIR$/Demo_CardIO" />
+            <option value="$PROJECT_DIR$/Demo_Host" />
+            <option value="$PROJECT_DIR$/Demo_MVP" />
+            <option value="$PROJECT_DIR$/Demo_MovieGuide" />
             <option value="$PROJECT_DIR$/Demo_MultiStateView" />
             <option value="$PROJECT_DIR$/Demo_OPENGL2.0" />
             <option value="$PROJECT_DIR$/Demo_RxJavaAndRetrofit" />
+            <option value="$PROJECT_DIR$/Demo_SelectImage" />
             <option value="$PROJECT_DIR$/Demo_ZXing" />
             <option value="$PROJECT_DIR$/Demo_accessbility" />
+            <option value="$PROJECT_DIR$/Demo_drag" />
             <option value="$PROJECT_DIR$/Demo_wifip2pconnnection" />
+            <option value="$PROJECT_DIR$/MusicPlayer" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/demo_pathanimation" />
+            <option value="$PROJECT_DIR$/demo_plugin" />
           </set>
         </option>
       </GradleProjectSettings>

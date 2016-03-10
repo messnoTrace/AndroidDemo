@@ -1,15 +1,13 @@
 package com.notrace.bottomtab;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.notrace.bottomtab.base.BaseActivity;
 import com.notrace.bottomtab.fragment.AssetsFragment;
 import com.notrace.bottomtab.fragment.IndexFragment;
 import com.notrace.bottomtab.fragment.MarketFragment;
@@ -21,7 +19,7 @@ import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-public class MainActivity extends FragmentActivity {
+public class MainActivity extends BaseActivity {
 
     @Bind(R.id.viewpager)
     ViewPager viewpager;

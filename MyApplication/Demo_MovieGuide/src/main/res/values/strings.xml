@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MovieGuide</string>
+    <string name="action_filter">Filter</string>
+    <string name="loading_movies">Loading Movies</string>
+    <string name="sort_by">Sort By</string>
+    <string name="movie_guide">MovieGuide</string>
+</resources>

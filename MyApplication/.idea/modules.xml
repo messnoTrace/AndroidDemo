@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Demo_Frame_BottomTab/Demo_Frame_BottomTab.iml" filepath="$PROJECT_DIR$/Demo_Frame_BottomTab/Demo_Frame_BottomTab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo_CardIO/Demo_CardIO.iml" filepath="$PROJECT_DIR$/Demo_CardIO/Demo_CardIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo_Host/Demo_Host.iml" filepath="$PROJECT_DIR$/Demo_Host/Demo_Host.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo_MVP/Demo_MVP.iml" filepath="$PROJECT_DIR$/Demo_MVP/Demo_MVP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo_MovieGuide/Demo_MovieGuide.iml" filepath="$PROJECT_DIR$/Demo_MovieGuide/Demo_MovieGuide.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo_MultiStateView/Demo_MultiStateView.iml" filepath="$PROJECT_DIR$/Demo_MultiStateView/Demo_MultiStateView.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo_OPENGL2.0/Demo_OPENGL2.0.iml" filepath="$PROJECT_DIR$/Demo_OPENGL2.0/Demo_OPENGL2.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo_RxJavaAndRetrofit/Demo_RxJavaAndRetrofit.iml" filepath="$PROJECT_DIR$/Demo_RxJavaAndRetrofit/Demo_RxJavaAndRetrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo_SelectImage/Demo_SelectImage.iml" filepath="$PROJECT_DIR$/Demo_SelectImage/Demo_SelectImage.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo_ZXing/Demo_ZXing.iml" filepath="$PROJECT_DIR$/Demo_ZXing/Demo_ZXing.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo_accessbility/Demo_accessbility.iml" filepath="$PROJECT_DIR$/Demo_accessbility/Demo_accessbility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo_drag/Demo_drag.iml" filepath="$PROJECT_DIR$/Demo_drag/Demo_drag.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo_wifip2pconnnection/Demo_wifip2pconnnection.iml" filepath="$PROJECT_DIR$/Demo_wifip2pconnnection/Demo_wifip2pconnnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MusicPlayer/MusicPlayer.iml" filepath="$PROJECT_DIR$/MusicPlayer/MusicPlayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_pathanimation/demo_pathanimation.iml" filepath="$PROJECT_DIR$/demo_pathanimation/demo_pathanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_plugin/demo_plugin.iml" filepath="$PROJECT_DIR$/demo_plugin/demo_plugin.iml" />
     </modules>
   </component>
 </project>

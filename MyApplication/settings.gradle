@@ -1,1 +1,1 @@
-include ':app', ':Demo_MultiStateView', ':Demo_ZXing', ':Demo_accessbility', ':Demo_OPENGL2.0', ':Demo_wifip2pconnnection', ':Demo_Frame_BottomTab', ':Demo_RxJavaAndRetrofit'
+include ':app', ':Demo_MultiStateView', ':Demo_ZXing', ':Demo_accessbility', ':Demo_OPENGL2.0', ':Demo_wifip2pconnnection', ':Demo_RxJavaAndRetrofit', ':Demo_SelectImage', ':Demo_CardIO', ':demo_plugin', ':Demo_Host', ':MusicPlayer', ':Demo_drag', ':demo_pathanimation', ':Demo_MVP', 'Demo_MovieGuide'
